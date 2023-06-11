@@ -33,14 +33,14 @@ const Intro = () => {
             </article>
           </div>
           <p> 
-          Mi nombre es Josue Vasquez, Egrese en el mes de Junio del 2022 de la carrera de Ing.
-           sistemas computacionales en el Instituto Tecnologico de Tlaxiaco,
-            tengo conocmientos intermedios con el Vue js (2), Angular (14), Laravel (8)
-             y aplicaciones moviles con Flutter (frontEnd). 
-             Me gusta aprender las nuevas tecnologias y adquirir nuevos conocimientos en el desarrollo de software
+          Soy desarrollador Back-end con el framework de Spring y SpringBoot, tengo experiencia en la parte del frontend 
+          con el framework de React.He ocupado los manejadores de estilos Bootstrap, tailwind css.
+          En la parte móviles he trabajado con Flutter 2.5, actualmente solo tengo experiencia en la parte de maquetado.
+          Actualmente sigo aprendiendo y realizando bootcamp para seguir mejorando mi conocimiento y experiencia.
+          Egrese de la universidad en julio del 2022 y actualmente estoy en proceso de titulacion.
           </p>
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            Contactame
           </a>
         </div>
       </div>
