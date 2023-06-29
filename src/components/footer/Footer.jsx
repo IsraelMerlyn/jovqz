@@ -12,7 +12,7 @@ const Footer = () => {
         <li><a href="#about">Acerca de</a></li>
         <li><a href="#experience">Skills</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonio</a></li>
+        {/* <li><a href="#testimonials">Testimonio</a></li> */}
         <li><a href="#contact">Contacto</a></li>
       </ul>
       <div className="footer__socials">
