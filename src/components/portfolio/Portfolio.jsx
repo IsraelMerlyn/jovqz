@@ -4,7 +4,7 @@ import IMG1 from "../../assets/tecno_dev.png";
 import IMG2 from "../../assets/IsraelMerlyn.png";
 import IMG3 from "../../assets/API_Biblioteca.png";
 import IMG4 from "../../assets/apiRest_tareas.png";
-import IMG5 from "../../assets/Jokes Project.jpg";
+import IMG5 from "../../assets/gifApp.png";
 import IMG6 from "../../assets/Project4.jpg";
 import React from "react";
 
@@ -49,6 +49,16 @@ const Portfolio = () => {
       technologies: " Java 8 | SpringBoot | Postman | Swagger 2.7",
       link: "",
       github: "https://github.com/IsraelMerlyn/ApiRest_conRelaciones_Spring",
+    },
+    {
+      id: 5,
+      title: "Gif App",
+      img: IMG5,
+      description:
+        "Sitio web, consumo de API de giphy developer",
+      technologies: "React | Hook | Postman",
+      link: "https://israelmerlyn.github.io/gifApp_Israel/",
+      github: "https://github.com/IsraelMerlyn/gifApp_Israel",
     },
   /*  {
       id: 5,
