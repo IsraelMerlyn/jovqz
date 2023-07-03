@@ -11,6 +11,7 @@
 }
 
 :root {
+  --color-bg-img: #f0f1f7;
   --color-bg: #f0f1f7;
   --color-bg-variant: #ffffff;
   --color-primary: #4db5ff;
