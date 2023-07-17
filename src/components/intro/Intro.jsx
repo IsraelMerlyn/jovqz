@@ -23,21 +23,21 @@ const Intro = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1 year</small>
+              <h5>Experiencia</h5>
+              <small>1 año</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>5+ Completed Projects</small>
+              <h5>Proyectos</h5>
+              <small>3+ Proyectos</small>
             </article>
           </div>
-          <p> 
+          <p className="text-justify"> 
           Soy desarrollador Back-end con el framework de Spring y SpringBoot, tengo experiencia en la parte del frontend 
-          con el framework de React.He ocupado los manejadores de estilos Bootstrap, tailwind css.
-          En la parte móviles he trabajado con Flutter 2.5, actualmente solo tengo experiencia en la parte de maquetado.
-          Actualmente sigo aprendiendo y realizando bootcamp para seguir mejorando mi conocimiento y experiencia.
-          Egrese de la universidad en julio del 2022 y actualmente estoy en proceso de titulacion.
+          con el framework de React.He ocupado los manejadores de estilos Bootstrap, Material UI.
+          En la parte móviles he trabajado con Flutter 2.5, solo tengo experiencia en la parte de maquetado.
+          Sigo aprendiendo y realizando bootcamp para seguir mejorando mi conocimiento y experiencia.
+         
           </p>
           <a href="#contact" className="btn btn-primary">
             Contactame

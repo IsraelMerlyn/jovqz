@@ -45,10 +45,12 @@ const Experience = () => {
         <div className="experience__frontend">
           <h3>Back-end Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
+            <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Spring / SpringBoot</h4>
+              
             </article>
+            
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>MySQL</h4>
