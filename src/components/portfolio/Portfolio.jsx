@@ -5,7 +5,9 @@ import IMG2 from "../../assets/IsraelMerlyn.png";
 import IMG3 from "../../assets/API_Biblioteca.png";
 import IMG4 from "../../assets/apiRest_tareas.png";
 import IMG5 from "../../assets/gifApp.png";
-import IMG6 from "../../assets/Project4.jpg";
+import IMG6 from "../../assets/proyecto-Tareas.png";
+import IMG7 from "../../assets/diario_app.png";
+
 import React from "react";
 
 //Portfolio function
@@ -16,7 +18,7 @@ const Portfolio = () => {
       title: "Pagina Web Responsiva",
       img: IMG1,
       description:
-        "Pagina Web realizada para mi canal de youtube, con fin de practica y aprendizaje realizada con HTML, CSS, JS y Bootstrap 4.",
+        "Pagina Web realizada para mi canal de youtube, con fines de practica / aprendizaje",
       technologies: "Html | CSS | Javascript | Bootstrap 4",
       link: "https://israelmerlyn.github.io/pagina_web_/",
       github: "https://github.com/IsraelMerlyn/pagina_web_",
@@ -33,9 +35,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "Portafolio web IsraelMerlyn",
+      title: "Portafolio web ",
       img: IMG2,
-      description: "Anterios Portafolio web, realizado con el fin de dar a conocer mi conocimiento, educacion, experiencia personal y laboralmente",
+      description: "Anterior Portafolio web, realizado con el fin de dar a conocer mi anterior experiencia",
       technologies: "HTML | JS | Bootstrsp | CSS",
       link: "https://israelmerlyn.github.io/IsramerlynPortafolio/#page-4",
       github: "https://github.com/IsraelMerlyn/pagina_web_",
@@ -46,7 +48,7 @@ const Portfolio = () => {
       img: IMG3,
       description:
         "ApiRest. un backend de Biblioteca, asi mismo con documentacion usando uso de Swagger 2.7",
-      technologies: " Java 8 | SpringBoot | Postman | Swagger 2.7",
+      technologies: " Java 8 | SpringBoot | Postman | Swagger 2.7 | GitHub",
       link: "",
       github: "https://github.com/IsraelMerlyn/ApiRest_conRelaciones_Spring",
     },
@@ -55,31 +57,31 @@ const Portfolio = () => {
       title: "Gif App",
       img: IMG5,
       description:
-        "Sitio web, consumo de API de giphy developer",
-      technologies: "React | Hook | Postman",
+        "Sitio web, consumo de APIRest de giphy developer",
+      technologies: "React | Hook | Postman | GitHub",
       link: "https://israelmerlyn.github.io/gifApp_Israel/",
       github: "https://github.com/IsraelMerlyn/gifApp_Israel",
     },
-  /*  {
-      id: 5,
-      title: "Jokes Project with Typescript",
-      img: IMG5,
-      description:
-        "For when you need a fast funny joke, here are some short jokes to get anyone giggling.",
-      technologies: "Html | Styled-components | Typescript",
-      link: "https://jokes-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Joke-App",
-    },
     {
       id: 6,
-      title: "Fs Poster Website",
+      title: "Tareas con Prioridad",
       img: IMG6,
       description:
-        "Real-world group project which is still in progress and will provide educational platform for future young developers",
-      technologies: "Html | Scss | Javascript",
-      link: "https://fs-poster-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Fs-Poster-Project",
-    },*/
+        "CRUD de Tareas con prioridad, APIRest con sus respectivos EndPoint",
+      technologies: "SpringBoot  | MongoDB | Typescript | Angular | Postman | GitHub",
+      link: "",
+      github: "https://github.com/IsraelMerlyn/tareasCliente",
+    },
+    {
+      id: 7,
+      title: "Diario App",
+      img: IMG7,
+      description:
+        "App de Diario, Consumo de API y Autenticacion con firebase",
+      technologies: "React 18 | Redux | Firebase | cloudinary",
+      link: "https://israelmerlyn.github.io/diario_app_react/",
+      github: "https://github.com/IsraelMerlyn/diario_app_react",
+    },
   ];
 
   return (
@@ -94,7 +96,7 @@ const Portfolio = () => {
               <img src={pro.img} alt={pro.title} />
             </div>
             <div className="portfolio__item-content">
-              <h3>{pro.title}</h3>
+              <h4>{pro.title}</h4>
               <p>{pro.description}</p>
               <p>{pro.technologies}</p>
             </div>
